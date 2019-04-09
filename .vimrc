@@ -286,7 +286,10 @@ set timeoutlen=1000 ttimeoutlen=0
 " Plugins for vim-plug
 call plug#begin()
 "Plug 'lervag/vimtex' ", {'commit': '11ca64c035e4858d79b67f5f696ad223a859941e'}
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'lervag/vimtex' ", {'commit': '11ca64c035e4858d79b67f5f696ad223a859941e'}
+Plug 'davidhalter/jedi-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/seoul256.vim'

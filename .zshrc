@@ -25,7 +25,7 @@ prompt redhat
 #------------------------------
 # Variables
 #------------------------------
-export BROWSER="opera"
+export BROWSER="chromium"
 export EDITOR="vim"
 export PAGER="vimpager"
 
@@ -87,8 +87,8 @@ alias ...='cd ../..'
 
 alias ya='yaourt'
 alias yasu='yaourt -Syu'
-alias yg='yaourt -G'
-alias ipy='ipython2'
+alias yag='yaourt -G'
+alias ipy='ipython'
 alias rawview='python2 ~/program/vmimodules/vmimodules/qt/RawViewer.py'
 
 alias startpbs='sudo pbs_server; sudo trqauthd; sudo pbs_mom; sudo pbs_sched'
@@ -109,7 +109,7 @@ fignore=(\~)
 # turn off effin caps lock
 # setxkbmap -option ctrl:nocaps
 # better yet, remap caps lock to Esc
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+# xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 # # this is now handled in the LXQt session configuration
 # that didn't seem to work properly
 #

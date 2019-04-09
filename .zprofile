@@ -26,4 +26,4 @@ export DALTON_TMPDIR='/tmp/dalton'
 # export OMPI_FC='/usr/bin/gfortran-4.9'
 
 
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+# xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
