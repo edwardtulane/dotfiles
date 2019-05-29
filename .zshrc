@@ -85,9 +85,9 @@ alias ...='cd ../..'
 alias ...='cd ../../..'
 alias ...='cd ../..'
 
-alias ya='yaourt'
-alias yasu='yaourt -Syu'
-alias yag='yaourt -G'
+alias ya='yay'
+alias yasu='yay -Syu'
+alias yag='yay -G'
 alias ipy='ipython'
 alias rawview='python2 ~/program/vmimodules/vmimodules/qt/RawViewer.py'
 

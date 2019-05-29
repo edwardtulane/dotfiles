@@ -2,9 +2,14 @@
 # export TMPDIR='/scr'
 # export MACH='gcc'
 # export PYTHONPATH='/home/brausse/program'
+export PATH=$PATH':/home/brausse/sw/grasp/bin/:/home/brausse/sw/openmx3.8/source/'
+export PATH=$PATH':/home/brausse/sw/openmx3.8/adpack2.2/source/'
 
 # Dalton environment variables
 export DALTON_TMPDIR='/tmp/dalton'
+
+export JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
+
 
 # start pcman in daemon mode to enable automount
 # pcmanfm-qt -d

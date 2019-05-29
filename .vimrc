@@ -68,16 +68,6 @@ if has('mouse')
   
 endif
 
-" Switch syntax highlighting on, when the terminal has colors
-" Also switch on highlighting the last used search pattern.
-" set t_Co=256
-if &t_Co > 2 || has("gui_running")
-  syntax on
-  set hlsearch
-" colorscheme desert256
-  colorscheme wombat256 " my new favourite!
-endif
-
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
@@ -111,6 +101,16 @@ else
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
+
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+" set t_Co=256
+if &t_Co > 2 || has("gui_running")
+  syntax on
+  set hlsearch
+" colorscheme desert256
+  colorscheme wombat256 " my new favourite!
+endif
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
@@ -300,6 +300,8 @@ Plug 'vimoutliner/vimoutliner'
 Plug 'vim-voom/VOoM'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'majutsushi/tagbar'
+Plug 'scrooloose/nerdtree'
 "Plug 'arnar/vim-matchopen'
 call plug#end()
 " Plug 'roman/golden-ratio'
