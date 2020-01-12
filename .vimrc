@@ -286,6 +286,7 @@ set timeoutlen=1000 ttimeoutlen=0
 " Plugins for vim-plug
 call plug#begin()
 "Plug 'lervag/vimtex' ", {'commit': '11ca64c035e4858d79b67f5f696ad223a859941e'}
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lervag/vimtex' ", {'commit': '11ca64c035e4858d79b67f5f696ad223a859941e'}
@@ -295,21 +296,23 @@ Plug 'junegunn/limelight.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'reedes/vim-wordy'
 Plug 'ervandew/supertab'
-Plug 'fmoralesc/vim-pad', {'branch': 'devel'}
+Plug 'edwardtulane/vim-pad', {'branch': 'devel'}
 Plug 'vimoutliner/vimoutliner'
-Plug 'vim-voom/VOoM'
+" Plug 'vim-voom/VOoM'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
-"Plug 'arnar/vim-matchopen'
+Plug 'arnar/vim-matchopen'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
 " Plug 'roman/golden-ratio'
 
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 map <leader>g :Goyo <CR>
-let g:goyo_width = '80%'
+let g:goyo_width = '90%'
 let g:goyo_height = '90%'
 
 " vim-pad options
@@ -317,6 +320,9 @@ let g:pad#dir = '~/write/notes/'
 let g:pad#default_format = "votl"
 let g:pad#window_height = 16
 
+" options for vim-pandoc
+let g:pandoc#formatting#mode = 'ha'
+let g:pandoc#formatting#textwidth = 78
 
 
  " path to directory where library can be found

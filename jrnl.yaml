@@ -1,0 +1,14 @@
+default_hour: 9
+default_minute: 0
+editor: vim
+encrypt: false
+highlight: true
+indent_character: '|'
+journals:
+  default: /home/brausse/write/journal.txt
+  pomo: /home/brausse/write/pomo.txt
+linewrap: 79
+tagsymbols: '@'
+template: false
+timeformat: '%Y-%m-%d %H:%M'
+version: 2.1.post2

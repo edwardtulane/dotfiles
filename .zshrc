@@ -103,8 +103,14 @@ alias todo='python /usr/lib/python3.6/site-packages/t.py'
 alias downmix='mplayer -af extrastereo=0'
 alias playleft='mplayer -af channels=2:2:0:1:0:0'
 
-alias th='cd ~/write/thesis; v thesis.tex '
 fignore=(\~)
+
+alias j='jrnl'
+alias jls='jrnl -n100 -s'
+
+# jrnl for pomodoro activities
+alias pomo='jrnl pomo'
+alias pomols='jrnl pomo -n100'
 
 # turn off effin caps lock
 # setxkbmap -option ctrl:nocaps

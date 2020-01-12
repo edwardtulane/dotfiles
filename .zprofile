@@ -2,6 +2,7 @@
 # export TMPDIR='/scr'
 # export MACH='gcc'
 # export PYTHONPATH='/home/brausse/program'
+export PATH=$PATH':/opt/ape/bin'
 export PATH=$PATH':/home/brausse/sw/grasp/bin/:/home/brausse/sw/openmx3.8/source/'
 export PATH=$PATH':/home/brausse/sw/openmx3.8/adpack2.2/source/'
 
@@ -9,6 +10,9 @@ export PATH=$PATH':/home/brausse/sw/openmx3.8/adpack2.2/source/'
 export DALTON_TMPDIR='/tmp/dalton'
 
 export JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
+
+export PYSPARK_PYTHON=python
+export PYSPARK_DRIVER_PYTHON=ipython
 
 
 # start pcman in daemon mode to enable automount
