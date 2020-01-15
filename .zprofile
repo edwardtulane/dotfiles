@@ -14,6 +14,9 @@ export JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
 export PYSPARK_PYTHON=python
 export PYSPARK_DRIVER_PYTHON=ipython
 
+# Limit the man-page width
+export MANWIDTH=80
+
 
 # start pcman in daemon mode to enable automount
 # pcmanfm-qt -d
