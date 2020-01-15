@@ -303,7 +303,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
-Plug 'arnar/vim-matchopen'
+"Plug 'arnar/vim-matchopen'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
@@ -312,7 +312,7 @@ call plug#end()
 autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 map <leader>g :Goyo <CR>
-let g:goyo_width = '90%'
+let g:goyo_width = '80%'
 let g:goyo_height = '90%'
 
 " vim-pad options
